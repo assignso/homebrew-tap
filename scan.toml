@@ -1,0 +1,9 @@
+# Dependency watch for homebrew-tap
+
+[dependencies]
+homebrew = "https://github.com/Homebrew/brew/releases"
+
+[dependencies.platform]
+macos = "https://developer.apple.com/documentation/macos-release-notes"
+
+[maintain]
