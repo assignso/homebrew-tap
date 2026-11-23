@@ -6,4 +6,7 @@ homebrew = "https://github.com/Homebrew/brew/releases"
 [dependencies.platform]
 macos = "https://developer.apple.com/documentation/macos-release-notes"
 
+[watch]
+external = ["homebrew", "platform.macos"]
+
 [maintain]
